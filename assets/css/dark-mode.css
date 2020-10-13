@@ -1,0 +1,176 @@
+/* dark header area */
+header.dark
+{
+    background-color: rgb(0, 0, 0);
+    box-shadow:  0 1px 10px 1px rgba(255, 255, 255, 0.685);
+}
+header.dark .nav-link .label
+{
+    background-color: rgb(255, 255, 255);
+}
+ ul.navbar-nav.dark
+{
+    background: black;
+}
+header.dark .nav-link .ball
+{
+    background-color: black;
+}
+header.dark nav ul li a:hover
+{
+    color: rgb(252, 0, 0);
+}
+header.dark.sticky
+{
+    background-color: black;
+    box-shadow: 0 10px 15px -10px rgb(255, 255, 255);
+    transition: 1s;
+}
+.navbar-toggler.dark
+{
+    color: white;
+}
+/* dark header area end */
+/* sectionn area */
+.course-info.dark
+{
+    background-color: rgb(39, 38, 38);
+    transition: 1s;
+}
+.course-info.dark button
+{
+    background-color: black;
+    border: 1px solid rgb(41, 40, 40);
+    transition:1s;
+}
+.course-info.dark .course-info button:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition:1s;
+}
+/* section area end */
+/* courses section area */
+.courses.dark
+{
+    background: black;
+    color: white;
+}
+.courses.dark .border-design
+{
+    border: 1px solid white;
+    color: #AB0534;
+}
+.courses.dark .border-design:hover
+{
+    background-color: #AB0534;
+    color: white;
+    border: none;
+}
+.courses.dark .border-design::before
+{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    box-shadow: 185px 0px 1px rgb(0, 0, 0);
+}
+.courses.dark .border-design::after
+{
+    content: "";
+    background-color: rgb(0, 0, 0);
+    box-shadow: -185px 0px 1px rgb(0, 0, 0);
+}
+.courses.dark div.border-design:hover.border-design::before
+{
+    background-color: rgba(0, 0, 0, 0);
+}
+.courses.dark div.border-design:hover.border-design::after
+{
+    background-color: rgba(0, 0, 0, 0);
+}
+/* courses section area end*/
+/* discover area */
+.discover.dark
+{
+    background: url(/assets/images/dark.jpg);
+    background-size: cover;
+    transition:1s;
+}
+.discover.dark p ,.discover.dark h3
+{
+   color: white;
+   transition:1s;
+}
+/* discover area end*/
+/* paid-course area */
+#paid-course.dark
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 1s;
+}
+#paid-course.dark .text-left p
+{
+    color: white;
+}
+/* paid-course area  end*/
+/* team-area dark area */
+.team-area.dark
+{
+    background: black;
+    transition: 1s;
+}
+.team-area.dark .team-card .face.front
+{
+    background: black;
+}
+.team-area.dark .team-card .face.front p
+{
+    color: white;
+}
+.team-area.dark .front-img
+{
+    border: 10px solid rgb(0, 0, 0);
+}
+/* team-area dark area end*/
+/* instructor area */
+.instructor.dark
+{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 50%,rgba(5, 5, 5, 0.8)),
+    url(/assets/images/write.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    color: white;
+    transition:1s;
+}
+/* instructor area end*/
+/* up arrow area */
+#up.dark i
+{
+    color: rgb(255, 0, 0);
+    border: none;
+    transition:1s;
+}
+/* up arrow area end */
+/* about dark */
+.about.dark
+{
+    background-color: black;
+    transition: 1s;
+}
+/* about dark  end*/
+/* contact-dark */
+.contact.dark
+{
+    background: black;
+    color: white;
+}
+.contact.dark .text-content p
+{
+    color: white;
+}
+/* contact-dark end*/
+#registr.dark
+{
+    background: black;
+}

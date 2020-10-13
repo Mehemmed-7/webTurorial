@@ -1,0 +1,1428 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      /* header responsive codes area*/
+    header .container
+    {
+        padding: 0;
+    }
+    nav.navbar.navbar-expand-lg .navbar-brand
+    {
+        padding-left: 10px;
+    }
+    nav.navbar.navbar-expand-lg button
+    {
+        margin-right: 10px;
+    }
+    nav.navbar.navbar-expand-lg button span 
+    {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav.navbar.navbar-expand-lg ul li
+    {
+        padding: 0 10px !important;
+    }
+    button.navbar-toggler{
+        padding-right: 10px;
+    }
+    header ul
+    {
+        background-color: #AB0534;
+        position: relative;
+        top: 40px;
+    }
+    .full input[type = "search"]
+    {
+        width: 240px;
+        height: 35px ;
+    }
+    .full .submit
+    {
+        height: 35px;
+    }
+    .full .submit .fa-search
+    {
+        font-size: 20px;
+    }
+    /* header responsive codes area end */
+
+    /* course-info responsive codes area */
+    .course-info h1
+    {
+        font-size: 20px;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    div.mouse
+    {
+        width: 30px;
+        height: 54px;
+        border: 2px solid black;
+        background: rgba(0, 0, 0, 0.377);
+        border-radius: 60px;
+        position: absolute;
+        bottom:10px;
+    }
+    div.mouse::before
+    {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: black;
+        opacity: 1;
+        animation: mouse-dot .9s infinite;
+    }
+        @keyframes mouse-dot
+    {
+        from
+        {
+            opacity: 1;
+            top: 3px;
+        }
+        to 
+        {
+            top: 40px;
+            opacity: 0;
+        }
+    }
+    /* course-info responsive codes area end */
+
+    /* courses responsive codes area */
+    div.border-design
+    {
+        border: 2px solid black;
+        height: 260px;
+        position: relative;
+        font-weight: lighter;
+        color: #AB0534;
+        font-family: 'Open sans';
+        cursor: pointer;
+        width: 260px;
+    }
+    .course-category + div
+    {
+        display: flex;
+        justify-content: center !important;
+    }
+    div.course-icon i
+    {
+        font-size: 80px;
+    }
+    div.border-design h3
+    {
+        letter-spacing: 1px;
+        font-weight: lighter;
+    }
+    div.border-design::before
+    {
+        content: "";
+        background-color: #F4F8FF;
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        border-radius: 50%;
+        box-shadow: 255px 0px 1px #F4F8FF;
+    }
+    div.border-design::after
+    {
+        content: "";
+        width: 35px;
+        height: 35px;
+        background-color: #F4F8FF;
+        position: absolute;
+        bottom: -15px;
+        right: -15px;
+        border-radius: 50%;
+        box-shadow: -255px 0px 1px #F4F8FF;
+    }
+    .courses.dark div.border-design::before
+    {
+        content: "";
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        border-radius: 50%;
+        box-shadow: 255px 0px 1px rgb(0, 0, 0);
+    }
+    .courses.dark div.border-design::after
+    {
+        content: "";
+        width: 35px;
+        height: 35px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        bottom: -15px;
+        right: -15px;
+        border-radius: 50%;
+        box-shadow: -255px 0px 1px rgb(0, 0, 0);
+    }
+    .courses.dark div.border-design:hover.border-design::before
+    {
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: -255px 0px 1px rgb(0, 0, 0);
+    }
+    .courses.dark div.border-design:hover.border-design::after
+    {
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: -255px 0px 1px rgba(0, 0, 0, 0);
+    }
+    div.col-md-4.mt-5.mb-5
+    {
+        margin-top: 0 !important;
+        margin-bottom: 15px !important;
+    }
+    /* courses responsive codes area end */
+
+    /* paid course responsive code area */
+    div.card-body
+    {
+        padding: 0 10px;
+    }
+    #paid-course div div .text-left h1
+    {
+       font-size: 12px ;
+    }
+    #paid-course div div button
+    {
+        width: 100px;
+        height: 25px;
+        padding: 0;
+        font-size: 10px;
+    }
+    div.container.py-5
+    {
+        padding: 0 !important;
+    }
+    /* paid course responsive code area end*/
+    
+    /* team responsive codes area */
+    section.team-area.pt-5
+    {
+        padding-top: 10px !important;
+    }
+    .face .front-img
+    {
+        margin-bottom: 20px;
+    }
+    .face h2
+    {
+        font-size: 20px;
+    }
+    div.inst-area
+    {
+        width: 250px;
+        height: 30px;
+        font-size: 13px;
+    }
+    div.inst-area div
+    {
+        width: 100px;
+        height: 30px;
+    }
+    div.inst-area div p
+    {
+        font-size: 15px;
+        letter-spacing: 2.5px;
+        font-weight: 400;
+    }
+    /* team responsive codes area  end*/
+    /* footer and copyright  responsive codes area */
+    footer .col-lg-6 
+    {
+        text-align: center;
+        text-align: justify;
+    }
+    footer .col-lg-6 p
+    {
+        padding: 0 !important;
+    }
+    footer .col-lg-6 ul.social
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer div.col-lg-6.col-xs-12.location
+    {
+        display: flex;
+        align-items: center !important;
+    }
+    footer div.col-lg-6.col-xs-12.location p
+    {
+        width: 250px;
+    }
+    div hr
+    {
+        margin-bottom: 20px ;
+    }
+    div.copyright p
+    {
+        font-size: 11px !important;
+    }
+    footer .col-lg-6 p
+    {
+        word-spacing: -6.5px;
+    }
+    .card-body p
+    {
+        word-spacing: -7.4px;
+    }
+    /* footer and copyright responsive codes area end */
+    /* about page responsive codes area */
+    .about
+    {
+        height: auto !important;
+    }
+    .about-img
+    {
+        display: none;
+        visibility: hidden;
+    }
+    .about-details
+    {
+        position: relative;
+        margin: 2px auto 0;
+        width: 400px;
+        height: auto !important;
+        background: linear-gradient(0deg,#000,#262626);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 21px;
+    }
+    .about-details::before
+    {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: -3px;
+        background: linear-gradient(45deg,#3b004d,rgb(104, 184, 180),#f56a6a,#08d676,rgb(4, 203, 253),#5ceea5);
+        background-size: 400%;
+        width: calc(100% + 5px);
+        height: calc(100% + 5px) !important;
+        z-index: -1;
+        animation: animate 27s linear infinite;
+        filter: blur(35px);
+    }
+    .about-details p
+    {
+        word-spacing: -7px;
+        text-align: justify;
+    }
+    .text-content h1
+    {
+        font-size: 30px !important;
+        margin-bottom: 10px !important;
+    }
+    .text-content p
+    {
+        font-size: 10px !important;
+    }
+    section.contact
+    {
+        height: 622px!important;
+    }
+    #map iframe
+    {
+        display: none;
+    }
+    .contact-form
+    {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        left: 35px !important;
+        bottom: 465px;
+        width: 250px !important;
+        height: 47px !important;
+        background-color: white;
+        border-radius: 3px;
+    }
+    div.card-2
+    {
+        padding: 0;
+    }
+    span.card-title
+    {
+        margin: 0;
+        padding: 0;
+    }
+    div.card-content
+    {
+        padding: 0;
+    }
+    div.card-content input
+    {
+        margin-bottom: 10px;
+    }
+    div.card-content textarea
+    {
+        padding-top: 10px;
+    }
+    /* about page responsive codes area end*/
+    /* sign in page responsive codes area */
+    section#registr
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #AB0534;
+    transition: 1.5s;
+    width: 100%;
+    min-height: 85.3vh;
+    padding-top: 5  px;
+}
+section#registr .container
+{
+    position: relative;
+    width: 300px !important;
+    height: 300px !important;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+section .container .user
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+section .container .user .imgbox
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #AB0534;
+    transition: 0.7s;
+}
+section .container .user .imgbox img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover   ;
+}
+section .container .user .formbox
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    transition: 0.7s;
+}
+section .container .user .formbox form h2
+{
+    font-size: 10px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+}
+section .container .user .formbox form input
+{
+    position: relative;
+    width: 130px !important;
+    height: 20px;
+    padding: 0 !important;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    box-shadow: none;
+    margin: 4px 0 !important;
+    font-size: 13px !important;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+section .container .user .formbox form input::placeholder
+{
+    color: rgb(129, 127, 127);
+    font-weight: 500;
+    font-size: 10px !important;
+}
+section .container .user .formbox form input[type="submit"]
+{
+    max-width: 100px;
+    background: #AB0534;
+    color: white;
+    cursor: pointer;
+    font-size: 10px !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.7s;
+}
+section .container .user .formbox form .signup
+{
+    position: relative;
+    margin-top: 10px !important;
+    font-size: 7px !important;
+    letter-spacing: 1px;
+    color: rgb(3, 39, 46);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+section .container .user .formbox form .signup a
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: #AB0534;
+}
+section .container .signupbox .formbox
+{
+    left: 100%;
+}
+section .container.active .signupbox .formbox
+{
+    left: 0;
+}
+section .container .signupbox .imgbox
+{
+    left: -100%;
+}
+section .container.active .signupbox .imgbox
+{
+    left: 0;
+}
+section .container .signupbox
+{
+    pointer-events: none;
+}
+section .container.active .signupbox
+{
+    pointer-events: initial;
+}
+
+section .container .signinbox .formbox
+{
+    left: 0;
+}
+section .container.active .signinbox .formbox
+{
+    left: 100%;
+}
+section .container .signinbox .imgbox
+{
+    left: 0;
+}
+section .container.active .signinbox .imgbox
+{
+    left: -100%;
+}
+    /* sign in page responsive codes area end */
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    header.sticky
+    {
+        width: 100% !important;
+        background:#AB0534;
+        position: absolute;
+        box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.445);
+        /* padding-right: 10px; */
+    }  
+    div.card-body h3
+    {
+        margin: 10px 15px 10px 15px !important;
+    }
+    div.card-body p , div.card-body h1, div.card-body .stars
+    {
+        margin: 0 15px !important;
+    }
+}
+
+/* tablet responsive codes area  */
+@media only screen and (max-width: 1024px) and (min-width:768px) {
+    /* header  */
+    .course-info h1
+    {
+        font-size: 20px;
+        margin-top: 40px !important;
+        margin-bottom: 10px !important;
+    }
+    div.course-info img
+    {
+        width: 240px;
+    }
+    header .container
+    {
+        padding: 0;
+    }
+    nav.navbar.navbar-expand-lg .navbar-brand
+    {
+        padding-left: 10px;
+    }
+    nav.navbar.navbar-expand-lg button
+    {
+        margin-right: 10px;
+    }
+    nav.navbar.navbar-expand-lg button span 
+    {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+     div.mouse
+    {
+        width: 25px;
+        height: 45px;
+        border: 3px solid #AB0534;
+        background: #f4f8ff;
+        border-radius: 60px;
+        position: absolute;
+        bottom:0;
+    } 
+     div.mouse::before
+    {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        position: absolute;
+        top: 23px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #AB0534;
+        opacity: 1;
+        animation: scroll .9s infinite;
+    } 
+    @keyframes scroll
+    {
+        from
+        {
+            opacity: 1;
+            top: 6px;
+        }
+        to 
+        {
+            top: 30px;
+            opacity: 0;
+        }
+    }
+    /* header end */
+
+    /* courses area */
+    div.border-design
+    {
+        border: 2px solid black;
+        width: 130px;
+        height: 130px;
+        position: relative;
+        font-weight: lighter;
+        color: #AB0534;
+        font-family: 'Open sans';
+        cursor: pointer;
+    }
+    div.border-design::before
+    {
+        content: "";
+        width: 25px;
+        height: 25px;
+        background-color: rgb(0, 0, 0) !important ;
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        border-radius: 50%;
+        box-shadow: 120px 0px 1px rgb(0, 0, 0) !important;
+    }
+    div.border-design::after
+    {
+        content: "";
+        width: 25px;
+        height: 25px;
+        background-color: rgb(0, 0, 0) !important;
+        position: absolute;
+        bottom: -15px;
+        right: -15px;
+        border-radius: 50%;
+        box-shadow: -120px 0px 1px rgb(0, 0, 0) !important;
+    }
+    /* courses area end */
+
+    /* paid course area */
+    div.popular-category-item p
+    {
+        font-size: 15px;
+    }
+    div.card-body
+    {
+        padding: 0 10px;
+    }
+    div.card-body h3
+    {
+        font-size: 20px;
+        margin-bottom: 3px !important;
+    }
+    div.card-body p
+    {
+       font-size: 14px;
+       margin-bottom: 3px !important;
+       word-spacing: -0.4ch;
+    }
+    div.card-body h1
+    {
+       font-size: 14px;
+    }
+    div.image-area img
+    {
+        height: 150px;
+    }
+    /* paid course area end */
+
+    /* team area */
+    div.face h2
+    {
+        font-size: 20px;
+        margin-top: 30px !important;
+    }
+    /* team area end*/
+    
+    /* inst-area */
+    .instructor .text-center
+    {
+        font-size: 25px;
+    }
+    div.inst-area
+    {
+        height: 40px;
+    }
+    div.inst-area div
+    {
+        height: 40px;
+    }
+    /* inst-area end */
+
+    /* about-us area  */
+    .about
+    {
+        height: 380px !important;
+    }
+    div.about-img img
+    {
+        display: block;
+        width: 200px;
+        height: 300px;
+    }
+    div.about-details
+    {
+        position: relative;
+        margin: 20px auto 0;
+        width: 200px !important;
+        height: 300px;
+        background: linear-gradient(0deg,#000,#262626);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 19px;
+    }
+    .about-details::before
+    {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: -3px;
+        background: linear-gradient(45deg,#3b004d,rgb(104, 184, 180),#f56a6a,#08d676,rgb(4, 203, 253),#5ceea5);
+        background-size: 400%;
+        width: calc(100% + 5px);
+        height: calc(100% + 5px) !important;
+        z-index: -1;
+        animation: animate 27s linear infinite;
+        filter: blur(35px);
+    }
+    .about-details p
+    {
+        word-spacing: -7px;
+        text-align: justify;
+    }
+    .text-content h1
+    {
+        font-size: 30px !important;
+        margin-bottom: 10px !important;
+    }
+    .text-content p
+    {
+        font-size: 10px !important;
+    }
+    section.contact
+    {
+        height: 622px!important;
+    }
+    #map iframe
+    {
+        display: none;
+    }
+    .contact-form
+    {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        left: 35px !important;
+        bottom: 465px;
+        width: 250px !important;
+        height: 47px !important;
+        background-color: white;
+        border-radius: 3px;
+    }
+    div.card-2
+    {
+        padding: 0;
+    }
+    span.card-title
+    {
+        margin: 0;
+        padding: 0;
+    }
+    div.card-content
+    {
+        padding: 0;
+    }
+    div.card-content input
+    {
+        margin-bottom: 10px;
+    }
+    div.card-content textarea
+    {
+        padding-top: 10px;
+    }
+    /* about us area end */
+    
+    /* sign-in responsive area */
+    section#registr
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #AB0534;
+        transition: 1.5s;
+        width: 100%;
+        max-height: 79.1vh;
+        padding-top: 5  px;
+    }
+    section#registr .container
+    {
+        position: relative;
+        width: 600px !important;
+        height: 350px !important;
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+    section .container .user
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    section .container .user .imgbox
+    {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        background: #AB0534;
+        transition: 0.7s;
+    }
+    section .container .user .imgbox img
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover   ;
+    }
+    section .container .user .formbox
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        transition: 0.7s;
+    }
+    section .container .user .formbox form h2
+    {
+        font-size: 13px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+        color: #555;
+    }
+    section .container .user .formbox form input
+    {
+        position: relative;
+        width: 250px !important;
+        height: 40px;
+        padding: 0 !important;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        outline: none;
+        box-shadow: none;
+        margin: 4px 0 !important;
+        font-size: 20px !important;
+        letter-spacing: 2px;
+        font-weight: 300;
+    }
+    section .container .user .formbox form input::placeholder
+    {
+        color: rgb(129, 127, 127);
+        font-weight: 500;
+        font-size: 13px !important;
+    }
+    section .container .user .formbox form input[type="submit"]
+    {
+        max-width: 100px;
+        background: #AB0534;
+        color: white;
+        cursor: pointer;
+        font-size: 10px !important;
+        font-weight: 500;
+        letter-spacing: 1px;
+        transition: 0.7s;
+    }
+    section .container .user .formbox form .signup
+    {
+        position: relative;
+        margin-top: 10px !important;
+        font-size: 12px !important;
+        letter-spacing: 1px;
+        color: rgb(3, 39, 46);
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    section .container .user .formbox form .signup a
+    {
+        font-weight: bold;
+        text-decoration: none;
+        color: #AB0534;
+    }
+    section .container .signupbox .formbox
+    {
+        left: 100%;
+    }
+    section .container.active .signupbox .formbox
+    {
+        left: 0;
+    }
+    section .container .signupbox .imgbox
+    {
+        left: -100%;
+    }
+    section .container.active .signupbox .imgbox
+    {
+        left: 0;
+    }
+    section .container .signupbox
+    {
+        pointer-events: none;
+    }
+    section .container.active .signupbox
+    {
+        pointer-events: initial;
+    }
+    
+    section .container .signinbox .formbox
+    {
+        left: 0;
+    }
+    section .container.active .signinbox .formbox
+    {
+        left: 100%;
+    }
+    section .container .signinbox .imgbox
+    {
+        left: 0;
+    }
+    section .container.active .signinbox .imgbox
+    {
+        left: -100%;
+    }
+    /* sign-in responsive area end */
+}
+    
+/* tablet responsive codes area end */
+
+/* laptop responsive codes area  */
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    /* header  */
+    .course-info h1
+    {
+        font-size: 30px;
+        margin-top: 7px !important;
+        margin-bottom: px !important;
+    }
+    div.course-info img
+    {
+        width: 400px;
+        height: 322px;
+    }
+    header .container
+    {
+        padding: 0;
+    }
+    nav.navbar.navbar-expand-lg .navbar-brand
+    {
+        padding-left: 10px;
+    }
+    nav.navbar.navbar-expand-lg button
+    {
+        margin-right: 10px;
+    }
+    nav.navbar.navbar-expand-lg button span 
+    {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+     div.mouse
+    {
+        width: 30px;
+        height: 54px;
+        border: 3px solid #AB0534;
+        background: #f4f8ff;
+        border-radius: 60px;
+        position: absolute;
+        bottom:0;
+    } 
+     div.mouse::before
+    {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        position: absolute;
+        top: 23px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #AB0534;
+        opacity: 1;
+        animation: scroll .9s infinite;
+    } 
+    @keyframes scroll
+    {
+        from
+        {
+            opacity: 1;
+            top: 6px;
+        }
+        to 
+        {
+            top: 30px;
+            opacity: 0;
+        }
+    }
+    /* header end */
+
+    /* courses area */
+    div.border-design
+    {
+        border: 2px solid black;
+        width: 250px;
+        height: 200px;
+        position: relative;
+        font-weight: lighter;
+        color: #AB0534;
+        font-family: 'Open sans';
+        cursor: pointer;
+    }
+    div.border-design::before
+    {
+        content: "";
+        width: 25px;
+        height: 25px;
+        background-color: #F4F8FF !important ;
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        border-radius: 50%;
+        box-shadow: 185px 0px 1px #F4F8FF !important;
+    }
+    div.border-design::after
+    {
+        content: "";
+        width: 25px;
+        height: 25px;
+        background-color: #F4F8FF !important;
+        position: absolute;
+        bottom: -15px;
+        right: -15px;
+        border-radius: 50%;
+        box-shadow: -185px 0px 1px #F4F8FF !important;
+    }
+    /* courses area end */
+
+    /* paid course area */
+    div.popular-category-item p
+    {
+        font-size: 25px;
+    }
+    #paid-course .col-xs-12
+    {
+        margin-top: 30px !important;
+    }
+    div.card-body
+    {
+        padding: 0 10px;
+    }
+    div.card-body h3
+    {
+        font-size: 30px;
+        margin-bottom: 3px !important;
+    }
+    div.card-body p
+    {
+       font-size: 20px;
+       margin-bottom: 3px !important;
+       word-spacing: -0.4ch;
+    }
+    div.card-body h1
+    {
+       font-size: 40px;
+    }
+    div.image-area img
+    {
+        height: 200px;
+    }
+    /* paid course area end */
+
+    /* team area */
+    div.face h2
+    {
+        font-size: 30px;
+        margin-top: 30px !important;
+    }
+    /* team area end*/
+    
+    /* inst-area */
+    .instructor .text-center
+    {
+        font-size: 40px;
+    }
+    div.inst-area
+    {
+        height: 60px;
+        font-size: 20px;
+    }
+    div.inst-area div
+    {
+        height: 60px;
+    }
+    /* inst-area end */
+
+    /* about-us area  */
+    .about
+    {
+        height: 380px !important;
+        margin-top: 50px;
+    }
+    div.about-img img
+    {
+        display: block;
+        width: 250px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    div.about-details
+    {
+        position: relative;
+        margin: 50px auto 0;
+        width: 200px !important;
+        height: 420px;
+        background: linear-gradient(0deg,#000,#262626);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 26px;
+    }
+    .about-details::before
+    {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: -3px;
+        background: linear-gradient(45deg,#3b004d,rgb(104, 184, 180),#f56a6a,#08d676,rgb(4, 203, 253),#5ceea5);
+        background-size: 400%;
+        width: calc(100% + 5px);
+        height: calc(100% + 5px) !important;
+        z-index: -1;
+        animation: animate 27s linear infinite;
+        filter: blur(35px);
+    }
+    .about-details p
+    {
+        word-spacing: -7px;
+        text-align: justify;
+    }
+    .text-content h1
+    {
+        font-size: 30px !important;
+        margin-bottom: 10px !important;
+    }
+    .text-content p
+    {
+        font-size: 10px !important;
+    }
+    section.contact
+    {
+        height: 622px!important;
+    }
+    #map iframe
+    {
+        display: block;
+    }
+    .contact-form
+    {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        left: 200px !important;
+        bottom: 410px !important;
+        width: 370px !important;
+        height: 370px !important;
+        background-color: #ffffff !important;
+        border-radius: 3px;
+    }
+    div.card-2
+    {
+        padding: 0;
+    }
+    span.card-title
+    {
+        margin: 0;
+        padding: 0;
+    }
+    div.card-content
+    {
+        padding: 0;
+    }
+    div.card-content input
+    {
+        margin-bottom: 10px;
+    }
+    div.card-content textarea
+    {
+        padding-top: 10px;
+    }
+    /* about us area end */
+    
+    /* sign-in responsive area */
+    section#registr
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #AB0534;
+        transition: 1.5s;
+        width: 100%;
+        max-height: 84.1vh;
+        padding-top: 5  px;
+    }
+    section#registr .container
+    {
+        position: relative;
+        width: 900px !important;
+        height: 400px !important;
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+    section .container .user
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    section .container .user .imgbox
+    {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        background: #AB0534;
+        transition: 0.7s;
+    }
+    section .container .user .imgbox img
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover   ;
+    }
+    section .container .user .formbox
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        transition: 0.7s;
+    }
+    section .container .user .formbox form h2
+    {
+        font-size: 13px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+        color: #555;
+    }
+    section .container .user .formbox form input
+    {
+        position: relative;
+        width: 350px !important;
+        height: 40px;
+        padding: 0 !important;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        outline: none;
+        box-shadow: none;
+        margin: 4px 0 !important;
+        font-size: 25px !important;
+        letter-spacing: 2px;
+        font-weight: 300;
+    }
+    section .container .user .formbox form input::placeholder
+    {
+        color: rgb(129, 127, 127);
+        font-weight: 500;
+        font-size: 15px !important;
+    }
+    section .container .user .formbox form input[type="submit"]
+    {
+        max-width: 100px;
+        background: #AB0534;
+        color: white;
+        cursor: pointer;
+        font-size: 15px !important;
+        font-weight: 500;
+        letter-spacing: 1px;
+        transition: 0.7s;
+    }
+    section .container .user .formbox form .signup
+    {
+        position: relative;
+        margin-top: 10px !important;
+        font-size: 15px !important;
+        letter-spacing: 1px;
+        color: rgb(3, 39, 46);
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    section .container .user .formbox form .signup a
+    {
+        font-weight: bold;
+        text-decoration: none;
+        color: #AB0534;
+    }
+    section .container .signupbox .formbox
+    {
+        left: 100%;
+    }
+    section .container.active .signupbox .formbox
+    {
+        left: 0;
+    }
+    section .container .signupbox .imgbox
+    {
+        left: -100%;
+    }
+    section .container.active .signupbox .imgbox
+    {
+        left: 0;
+    }
+    section .container .signupbox
+    {
+        pointer-events: none;
+    }
+    section .container.active .signupbox
+    {
+        pointer-events: initial;
+    }
+    
+    section .container .signinbox .formbox
+    {
+        left: 0;
+    }
+    section .container.active .signinbox .formbox
+    {
+        left: 100%;
+    }
+    section .container .signinbox .imgbox
+    {
+        left: 0;
+    }
+    section .container.active .signinbox .imgbox
+    {
+        left: -100%;
+    }
+    /* sign-in responsive area end */
+}
+/* laptop responsive codes area end  */
